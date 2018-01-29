@@ -1,6 +1,7 @@
 <?php
 /**
  * @todo 入口文件
+ ==============
  * @author Mumu
  * @date 2017年8月3日13:38:05
  */
@@ -12,6 +13,7 @@ error_reporting(E_ALL^E_NOTICE);
 define("APP", __DIR__.'/');
 
 //定义应用配置信息
+================
 $config = array(
                 "auto_load_path"=>array(
                     APP . "0_Lib/",
